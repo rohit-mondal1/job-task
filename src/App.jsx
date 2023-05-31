@@ -6,7 +6,7 @@ import { BsFacebook, BsInstagram } from "react-icons/bs";
 function App() {
   return (
     <>
-      <div className="max-w-[1280px] mx-auto bg-slate-300 min-h-[610px] my-3 flex relative">
+      <div className="max-w-[1280px] mx-auto  min-h-[610px] my-3 flex relative">
         <div className="min-w-[620px] min-h-[555x] bg-black rounded-xl text-white">
           <div>
             <h1 className=" mt-6 ml-5 text-3xl tracking-2 w-[64px] h-[22px] ">
@@ -47,7 +47,7 @@ function App() {
               type="email"
               name=""
               id=""
-              className="w-64 rounded-md p-2 my-5"
+              className="w-72 rounded-md p-2 my-5 border-2"
               placeholder="Enter your email"
             />
             <br />{" "}
@@ -55,11 +55,17 @@ function App() {
               type="password"
               name=""
               id=""
-              className="w-64 rounded-md p-2 "
+              className="w-72 rounded-md p-2 border-2"
               placeholder="Enter your password"
             />
-            <h1 className="ml-32 text-sm">Forgot Password?</h1>
-            <button className="w-64 rounded-md p-3 bg-black text-white my-9">Log In</button>
+            <h1 className="ml-36 text-sm">Forgot Password?</h1>
+            <button className="w-72 drop-shadow-lg rounded-md p-3 bg-black text-white my-9">
+              Log In
+            </button>
+            <p className="mt-20">
+              Don’t have an account yet?{" "}
+              <span className="text-emerald-800">Sign Up</span>{" "}
+            </p>
           </div>
         </div>
       </div>
